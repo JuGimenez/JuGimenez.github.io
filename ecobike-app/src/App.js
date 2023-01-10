@@ -1,58 +1,133 @@
-import Navbar1 from './Navbar1';
-import Gallery from './Gallery';
-import Texts from './Texts';
-import Footer from './Footer';
-// import Testudo from './Testudo';
-// import PdfViewer from './PdfViewer'
-// import './App.css'
-// import pdf from './Pdf/LocA4.pdf'
-// import {Button} from 'antd';
-// import { useState } from 'react';
-import Container from './Components/Containers/Container'
-import Quebrador from './Components/Containers/Quebrador';
-import CGaleria from './Components/Containers/CGaleria';
-import ContainerContato from './Components/Containers/ContainerContato';
-import Contato from './Components/Containers/Contato';
-import FotoContato from './Components/Containers/FotoContato';
+import Navbar1 from './Components/Navbar/Navbar1';
+import Accordion1 from './Components/Accordion';
+// LUGAR RESERVADO PARA O PDFVIWER
+import ContainerHeader from './Components/Header/ContainerHeader'
+import Breaker from './Components/Breaker';
+import ContainerTexts from './Components/ContainerTexts';
+import ContainerTextsEnglish from './Components/ContainerTextsEnglish';
+import ContainerAboutResearch from './Components/AboutResearch/ContainerAboutResearch'
+import ContainerEducationalProduct from './Components/EducationalProduct/ContainerEducationalProduct'
+import ContainerDidactSequence from './Components/DidactSequence/ContainerDIdactSequence'
+import ContainerResultsAndDiscussion from './Components/ResultsAndDiscussion/ContainerResultsAndDiscussion'
+import ContainerGallery from './Components/Gallery/ContainerGallery'
+import ContainerGalleryShowcase from './Components/Gallery/ContainerGalleryShowcase';
+import Gallery from './Components/Gallery/Gallery';
+import ContainerContactInfo from './Components/ContactInfo/ContainerContactInfo';
+import ContactInfo from './Components/ContactInfo/ContainerInfo';
+import PhotoContactInfo from './Components/ContactInfo/ContainerPhotoContactInfo';
+import Footer from './Components/Footer/Footer';
+
+
 
 function App() {
-  // const [showPdf, setShowPdf] = useState(false)
-
   return (
     <div>
       <Navbar1 />
 
-      <Texts />
-      
-      {/* <PdfViewer pdf={pdf} */}
-                 {/* onCancel={()=>setShowPdf(false)} */}
-                 {/* visible={showPdf} */}
-      {/* /> */}
-      {/* <Button onClick={()=>setShowPdf(!showPdf)}>Show PdfViewer</Button> */}
+      <ContainerHeader>
+        <p> foto 1 </p>
+        <h1> Header</h1>
+        <p> foto 2 </p>
 
-      <Container>
-        <h1>Bom dia Cuca</h1>
-        <CGaleria>
+      </ContainerHeader>
+
+      <Breaker>
+        <h1>Sobre a Pesquisa</h1>
+      </Breaker>
+
+      <ContainerAboutResearch>
+        <ContainerTexts> 
+          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. 
+          
+        </ContainerTexts>
+      </ContainerAboutResearch>
+
+      <Breaker>
+        <h1>Produto Educacional</h1>
+      </Breaker>
+
+      <ContainerEducationalProduct>
+        <ContainerTexts> 
+          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. 
+          
+        </ContainerTexts>
+
+        <ContainerTextsEnglish> 
+          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. 
+          
+        </ContainerTextsEnglish>
+      </ContainerEducationalProduct>
+
+      <Breaker>
+        <h1>Sequência Didática</h1>
+      </Breaker>
+
+      <ContainerDidactSequence>
+        <Accordion1 />
+      </ContainerDidactSequence>
+
+      <Breaker>
+        <h1>Resultados e Discussões</h1>
+      </Breaker>
+
+      <ContainerResultsAndDiscussion>
+        <Accordion1 />
+      </ContainerResultsAndDiscussion>
+
+      <Breaker>
+        <h1>Galeria</h1>
+      </Breaker>
+
+      <ContainerGallery>
+        <ContainerGalleryShowcase>
           <Gallery />
-        </CGaleria>
-      </Container>
+        </ContainerGalleryShowcase>
+      </ContainerGallery>
 
-      <Quebrador>
-        <h1>Bom dia Cuca</h1>
-      </Quebrador>
+      <Breaker>
+        <h1>Contato</h1>
+      </Breaker>
 
-      <ContainerContato>
-        <Contato>
-          <FotoContato />
-          <h1>Cuca Sarvaiva</h1>
-          <h3>Eu gosto de pamonha</h3>
-        </Contato>
+      <ContainerContactInfo>
+        <ContactInfo>
+          <PhotoContactInfo />
+          <p style={{fontSize:"25px"}}>Nome</p>
 
-        <Contato>
-          <FotoContato />
-          <h1>Tadala Felas</h1>
-        </Contato>
-      </ContainerContato>
+          <p style={{fontSize:"20px"}}>Email</p>
+
+          <p style={{fontSize:"20px"}}>Lattes</p>
+        </ContactInfo>
+
+        <ContactInfo>
+          <PhotoContactInfo />
+          <p style={{fontSize:"25px"}}>Nome</p>
+
+          <p style={{fontSize:"20px"}}>Email</p>
+
+          <p style={{fontSize:"20px"}}>Lattes</p>
+        </ContactInfo>
+      </ContainerContactInfo>
 
       <Footer />
     </div>

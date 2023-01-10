@@ -1,0 +1,210 @@
+.breaker {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 252, 35);
+}
+
+.header {
+    position: relative;
+    font-family: sans-serif;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    isolation: isolate;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.texts {
+    font-family: sans-serif;
+    text-align: justify;
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 253, 0);
+}
+
+.texts-english {
+    font-family: sans-serif;
+    text-align: justify;
+    color: rgb(67, 67, 67);
+    width: 1000px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 154, 40);
+}
+
+.about-research {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    isolation: isolate;
+}
+
+.about-research::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/11MataDesc.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.educational-product {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    isolation: isolate;
+}
+
+.educational-product::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/18BicicletaSaida.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.didact-sequence {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.didact-sequence::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.results-and-discussion {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.results-and-discussion::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.gallery {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.gallery::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.gallery-showcase {
+    padding: 10px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 252, 2);
+}
+
+.contact-info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    align-items: center;
+    justify-content: space-around;
+    isolation: isolate;
+}
+
+.contact-info::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.info {
+    padding: 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.photo-contact-info {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(252, 2, 194);
+}
