@@ -13,7 +13,6 @@
     "antf": "^1.0.0",
     "bootstrap": "^5.2.3",
     "fslightbox-react": "^1.6.2-2",
-    "gh-pages": "^4.0.0",
     "lightgallery": "^2.7.0",
     "pdfjs-dist": "^2.16.105",
     "react": "^18.2.0",
@@ -48,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
