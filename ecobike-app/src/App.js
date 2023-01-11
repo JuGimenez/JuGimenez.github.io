@@ -2,6 +2,7 @@ import Navbar1 from './Components/Navbar/Navbar1';
 import Accordion1 from './Components/Accordion';
 // LUGAR RESERVADO PARA O PDFVIWER
 import ContainerHeader from './Components/Header/ContainerHeader'
+import ContainerHeaderDescription from './Components/Header/ContainerHeaderDescription';
 import Breaker from './Components/Breaker';
 import ContainerTexts from './Components/ContainerTexts';
 import ContainerTextsEnglish from './Components/ContainerTextsEnglish';
@@ -26,7 +27,10 @@ function App() {
 
       <ContainerHeader>
         <p> foto 1 </p>
-        <h1> Header</h1>
+        <ContainerHeaderDescription>
+          <h1 style={{fontSize:"37px", FontType:"arial, sans-serif", FontWeight:"bold"}}> PRODUTO EDUCACIONAL: </h1>
+          <h2 style={{fontSize:"30px"}}> CERRADO: TRILHA ECOLÓGICA - CONHECER PARA CONSERVAR </h2>
+        </ContainerHeaderDescription>
         <p> foto 2 </p>
 
       </ContainerHeader>

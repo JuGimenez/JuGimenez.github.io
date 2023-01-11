@@ -40,77 +40,76 @@ function Gallery() {
         console.log('lightGallery has been initialized');
     };
     return (
-        <div className="App">
-            <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}
-            >
+        <div>
+            <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}>
                 <a href={img1} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Arvore lixeira" src={img1} height={500} class="fgallery-item" />
+                    <img alt="Arvore lixeira" src={img1} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img2} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img2} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img2} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img3} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img3} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img3} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img4} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img4} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img4} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img5} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img5} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img5} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img6} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img6} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img6} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img7} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img7} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img7} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img8} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img8} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img8} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img9} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img9} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img9} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img10} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img10} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img10} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img11} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img11} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img11} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img12} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img12} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img12} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img13} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img13} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img13} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img14} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img14} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img14} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img15} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img15} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img15} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img16} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img16} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img16} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img17} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img17} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img17} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img18} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img18} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img18} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img19} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img19} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img19} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img20} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img20} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img20} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img21} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img21} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img21} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img22} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img22} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img22} height={300} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img23} data-sub-html="<h4>Photo by Fotógrafo</h4>">
-                    <img alt="Aiai" src={img23} height={500} class="gallery-item" />
+                    <img alt="Aiai" src={img23} height={300} width="auto" class="fgallery-item" />
                 </a>
             </LightGallery>
         </div>
