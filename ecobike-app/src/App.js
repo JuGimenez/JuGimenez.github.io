@@ -28,7 +28,7 @@ function App() {
       <ContainerHeader>
         <p> foto 1 </p>
         <ContainerHeaderDescription>
-          <h1 style={{fontSize:"37px", FontType:"arial, sans-serif", FontWeight:"bold"}}> PRODUTO EDUCACIONAL: </h1>
+          <h1 style={{fontSize:"35px", FontType:"arial, sans-serif", FontWeight:"bold"}}> PRODUTO EDUCACIONAL: </h1>
           <h2 style={{fontSize:"30px"}}> CERRADO: TRILHA ECOLÓGICA - CONHECER PARA CONSERVAR </h2>
         </ContainerHeaderDescription>
         <p> foto 2 </p>
