@@ -6,7 +6,7 @@ function Navbar1() {
   return (
     <Navbar bg="light" expand="lg" sticky='top'>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Produto Educacional</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
