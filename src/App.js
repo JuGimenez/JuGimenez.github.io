@@ -19,6 +19,7 @@ import ContactInfo from './Components/ContactInfo/ContainerInfo';
 import PhotoContactInfo from './Components/ContactInfo/ContainerPhotoContactInfo';
 import Footer from './Components/Footer/Footer';
 
+// Photos
 import IFMT from './Components/Header/Icons/IFMT.png'
 import PROFEPT from './Components/Header/Icons/PROFEPT Quadrado.png'
 
