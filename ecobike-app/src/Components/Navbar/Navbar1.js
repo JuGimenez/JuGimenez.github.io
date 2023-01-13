@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,12 +11,13 @@ function Navbar1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Sobre a Pesquisa</Nav.Link>
-            <Nav.Link href="#link">Produto Educacional</Nav.Link>
-            <Nav.Link href="#ancora1">Sequência Didática</Nav.Link>
-            <Nav.Link href="#ancora2">Resultados e Discussão</Nav.Link>
-            <Nav.Link href="#ancora3">Galeria</Nav.Link>
-            <Nav.Link href="#ancora4">Contato</Nav.Link>
+            <Nav.Link as={Link} to="/inicio">Início</Nav.Link>
+            <Nav.Link as={Link} to="/sobreAPesquisa">Sobre a Pesquisa</Nav.Link>
+            <Nav.Link as={Link} to="/produtoEducacional">Produto Educacional</Nav.Link>
+            <Nav.Link as={Link} to="/sequenciaDidatica">Sequência Didática</Nav.Link>
+            <Nav.Link as={Link} to="/resultadosEDiscussões">Resultados e Discussão</Nav.Link>
+            <Nav.Link as={Link} to="/galeria">Galeria</Nav.Link>
+            <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

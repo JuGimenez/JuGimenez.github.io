@@ -1,3 +1,4 @@
+// import { BrowserRouter, Router, Route, Link } from "react-router-dom";
 import Navbar1 from './Components/Navbar/Navbar1';
 import Accordion1 from './Components/Accordion';
 // LUGAR RESERVADO PARA O PDFVIWER
@@ -28,7 +29,7 @@ function App() {
     <div>
       <Navbar1 />
 
-      <ContainerHeader>
+      <ContainerHeader id="header">
         <img src={IFMT} alt='IFMT' height={75} width="auto" />
         <ContainerHeaderDescription>
           <h1 style={{fontSize:"40px", fontFamily:"arial,sans-serif", fontWeight:"bolder"}}> PRODUTO EDUCACIONAL: </h1>
@@ -38,7 +39,7 @@ function App() {
 
       </ContainerHeader>
 
-      <Breaker>
+      <Breaker id="aboutResearch">
         <h1>Sobre a Pesquisa</h1>
       </Breaker>
 
@@ -56,7 +57,7 @@ function App() {
         </ContainerTexts>
       </ContainerAboutResearch>
 
-      <Breaker>
+      <Breaker id="educationalProduct">
         <h1>Produto Educacional</h1>
       </Breaker>
 
@@ -86,7 +87,7 @@ function App() {
         </ContainerTextsEnglish>
       </ContainerEducationalProduct>
 
-      <Breaker>
+      <Breaker id="didactSequence">
         <h1>Sequência Didática</h1>
       </Breaker>
 
@@ -94,7 +95,7 @@ function App() {
         <Accordion1 />
       </ContainerDidactSequence>
 
-      <Breaker>
+      <Breaker id="resultsAndDiscussion">
         <h1>Resultados e Discussões</h1>
       </Breaker>
 
@@ -102,7 +103,7 @@ function App() {
         <Accordion1 />
       </ContainerResultsAndDiscussion>
 
-      <Breaker>
+      <Breaker id="gallery">
         <h1>Galeria</h1>
       </Breaker>
 
@@ -112,7 +113,7 @@ function App() {
         </ContainerGalleryShowcase>
       </ContainerGallery>
 
-      <Breaker>
+      <Breaker id="contact">
         <h1>Contato</h1>
       </Breaker>
 
