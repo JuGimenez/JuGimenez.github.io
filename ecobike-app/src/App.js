@@ -18,6 +18,9 @@ import ContactInfo from './Components/ContactInfo/ContainerInfo';
 import PhotoContactInfo from './Components/ContactInfo/ContainerPhotoContactInfo';
 import Footer from './Components/Footer/Footer';
 
+import IFMT from './Components/Header/Icons/IFMT.png'
+import PROFEPT from './Components/Header/Icons/PROFEPT Quadrado.png'
+
 
 
 function App() {
@@ -26,12 +29,12 @@ function App() {
       <Navbar1 />
 
       <ContainerHeader>
-        <p> foto 1 </p>
+        <img src={IFMT} alt='IFMT' height={75} width="auto" />
         <ContainerHeaderDescription>
-          <h1 style={{fontSize:"35px", FontType:"arial, sans-serif", FontWeight:"bold"}}> PRODUTO EDUCACIONAL: </h1>
-          <h2 style={{fontSize:"30px"}}> CERRADO: TRILHA ECOLÓGICA - CONHECER PARA CONSERVAR </h2>
+          <h1 style={{fontSize:"40px", fontFamily:"arial,sans-serif", fontWeight:"bolder"}}> PRODUTO EDUCACIONAL: </h1>
+          <h2 style={{fontSize:"30px", fontFamily:"arial,sans-serif", fontWeight:"bolder"}}> CERRADO: TRILHA ECOLÓGICA - CONHECER PARA CONSERVAR </h2>
         </ContainerHeaderDescription>
-        <p> foto 2 </p>
+        <img src={PROFEPT} alt='PROFEPT' height={90} width="auto" />
 
       </ContainerHeader>
 
