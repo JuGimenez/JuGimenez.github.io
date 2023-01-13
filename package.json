@@ -1,6 +1,6 @@
 {
-  "name": "ecobike-app",
-  "homepage": "https://jugimenez.github.io/ecobike-app",
+  "name": "trilha-ecologica",
+  "homepage": "https://jugimenez.github.io/trilha-ecologica",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
