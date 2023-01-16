@@ -7,6 +7,19 @@
     background-color: rgb(238, 255, 127);
 }
 
+.pseudo-breaker {
+    height: 50px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(189, 241, 127);
+}
+
 .header {
     position: relative;
     height: 500px;
@@ -51,13 +64,14 @@
 .texts {
     font-family: sans-serif;
     text-align: justify;
-    font-size: 18px;
-    width: 1000px;
+    font-size: 16px;
+    text-indent: 20px;
+    width: 80%;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,18 +82,64 @@
 .texts-english {
     font-family: sans-serif;
     text-align: justify;
+    font-size: 16px;
     color: rgb(67, 67, 67);
-    width: 1000px;
+    width: 80%;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+.texts-spanish {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(67, 67, 67);
+    width: 80%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.inter-texts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.presentation {
+    position: relative;
+    padding: 50px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    isolation: isolate;
+}
+
+.presentation::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
 }
 
 .about-research {
@@ -96,7 +156,7 @@
 .about-research::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/11MataDesc.jpg");
+    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -107,7 +167,6 @@
 .educational-product {
     position: relative;
     font-family: sans-serif;
-    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,18 +188,21 @@
 .didact-sequence {
     position: relative;
     font-family: sans-serif;
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     isolation: isolate;
 }
 
 .didact-sequence::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-image: url("./Gallery/Photos/9Arvore.jpg");
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -162,7 +224,29 @@
 .results-and-discussion::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-image: url("./Gallery/Photos/31Paisagem.png");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.final-considerations {
+    position: relative;
+    font-family: sans-serif;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.final-considerations::after {
+    content: '';
+    position: absolute;
+    background-image: url("./Gallery/Photos/31Paisagem.png");
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -184,7 +268,7 @@
 .gallery::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-image: url("./Gallery/Photos/6ArvoreEscura.jpg");
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -212,7 +296,7 @@
 .contact-info::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-image: url("./Gallery/Photos/16BicicletaLongeDesc.jpg");
     background-position: center;
     background-size: cover;
     z-index: -1;

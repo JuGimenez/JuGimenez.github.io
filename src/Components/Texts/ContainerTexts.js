@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './CContainer.css'
+import '../CContainer.css'
 
 const ContainerTexts = ({ children }) => (
     <main className="texts">
