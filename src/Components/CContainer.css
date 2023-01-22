@@ -20,6 +20,36 @@
     background-color: rgb(189, 241, 127);
 }
 
+.mini-breaker {
+    font-size: 0;
+}
+
+.navi {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navis {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.modal-pdf {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .header {
     position: relative;
     height: 500px;
@@ -210,6 +240,16 @@
     opacity: 0.5;
 }
 
+.organizer {
+    width: 80%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .results-and-discussion {
     position: relative;
     font-family: sans-serif;
@@ -224,7 +264,7 @@
 .results-and-discussion::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/31Paisagem.png");
+    background-image: url("./Gallery/Photos/23CaminhoRua.png");
     background-position: center;
     background-size: cover;
     z-index: -1;
