@@ -33,6 +33,7 @@
 
 .navis {
     color: black;
+    text-decoration: none;
     background-color: rgb(255, 255, 255);
     flex-direction: row;
     flex-wrap: nowrap;
@@ -43,11 +44,23 @@
 }
 
 .modal-pdf {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding: 20px;
     align-items: center;
+}
+
+.modal-pdf-2 {
+    padding: 20px;
+    padding-right: 80px;
+    align-items: center;
+}
+
+.modal-organizer {
+    display: flex;
+    flex-wrap: nowrap; 
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .header {
@@ -94,55 +107,43 @@
 .texts {
     font-family: sans-serif;
     text-align: justify;
+    text-indent: 20px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.texts-2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.texts-language {
+    font-family: sans-serif;
+    text-align: justify;
     font-size: 16px;
     text-indent: 20px;
-    width: 80%;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.texts-english {
-    font-family: sans-serif;
-    text-align: justify;
-    font-size: 16px;
     color: rgb(67, 67, 67);
-    width: 80%;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 35px;
-    padding-bottom: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.texts-spanish {
-    font-family: sans-serif;
-    text-align: justify;
-    font-size: 16px;
-    color: rgb(67, 67, 67);
-    width: 80%;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .inter-texts {
@@ -164,7 +165,7 @@
 .presentation::after {
     content: '';
     position: absolute;
-    background-image: url("./Gallery/Photos/1ArvoreCerrado.jpg");
+    background-image: url("./Gallery/Photos/18BicicletaSaida.jpg");
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -250,7 +251,7 @@
     justify-content: space-evenly;
 }
 
-.results-and-discussion {
+.steps {
     position: relative;
     font-family: sans-serif;
     padding: 50px;
@@ -261,7 +262,7 @@
     isolation: isolate;
 }
 
-.results-and-discussion::after {
+.steps::after {
     content: '';
     position: absolute;
     background-image: url("./Gallery/Photos/23CaminhoRua.png");
@@ -346,7 +347,7 @@
 
 .info {
     padding: 10px;
-    width: 250px;
+    width: 19%;
     height: 500px;
     border-radius: 15px;
     display: flex;
@@ -357,8 +358,8 @@
 }
 
 .photo-contact-info {
-    width: 220px;
-    height: 220px;
+    width: 90%;
+    height: 50%;
     border-radius: 50%;
     background-color: rgb(252, 2, 194);
 }

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>
+    <div style={{backgorundColor: "yellow"}}>
       <footer class="footer">
         <div>
           <a href="https://coreui.io">CoreUI</a>
