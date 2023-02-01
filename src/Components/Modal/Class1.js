@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './ModalPDF.css'
 
-import aula1 from './Pdf/Aula1.pdf'
+import aula1 from './Pdf/Aula 1.pdf'
 import capa1 from './Capas/AulaCapa1.png'
 
 

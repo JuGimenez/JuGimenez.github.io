@@ -82,7 +82,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .header-description {
@@ -170,7 +170,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .about-research {
@@ -192,28 +192,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
-}
-
-.educational-product {
-    position: relative;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    isolation: isolate;
-}
-
-.educational-product::after {
-    content: '';
-    position: absolute;
-    background-image: url("./Gallery/Photos/18BicicletaSaida.jpg");
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .didact-sequence {
@@ -238,7 +217,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .organizer {
@@ -270,29 +249,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
-}
-
-.final-considerations {
-    position: relative;
-    font-family: sans-serif;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    isolation: isolate;
-}
-
-.final-considerations::after {
-    content: '';
-    position: absolute;
-    background-image: url("./Gallery/Photos/31Paisagem.png");
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .gallery {
@@ -314,7 +271,7 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .gallery-showcase {
@@ -325,6 +282,7 @@
 }
 
 .contact-info {
+    height: 600px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -342,13 +300,13 @@
     background-size: cover;
     z-index: -1;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .info {
     padding: 10px;
-    width: 19%;
-    height: 500px;
+    width: 27%;
+    height: 550px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -357,11 +315,20 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.photo-contact-info {
-    width: 90%;
+.photo-contact-info-ju {
+    width: 65%;
     height: 50%;
     border-radius: 50%;
-    background-color: rgb(252, 2, 194);
+    background-image: url(./ContactInfo/Fotos/Jucelino.jpeg);
+    background-repeat: no-repeat;
+    background-size: 270px 300px;
+}
+
+.photo-contact-info-ol {
+    width: 65%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: blueviolet;
 }
 
 .footer-foda {

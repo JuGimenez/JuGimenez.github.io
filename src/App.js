@@ -56,7 +56,8 @@ import Gallery from "./Components/Gallery/Gallery";
 //Contato
 import ContainerContactInfo from "./Components/ContactInfo/ContainerContactInfo";
 import ContactInfo from "./Components/ContactInfo/ContainerInfo";
-import PhotoContactInfo from "./Components/ContactInfo/ContainerPhotoContactInfo";
+import PhotoContactInfoJu from "./Components/ContactInfo/ContainerPhotoContactInfoJu";
+import PhotoContactInfoOl from "./Components/ContactInfo/ContainerPhotoContactInfoOl";
 
 //Footer
 import Footer from "./Components/Footer/Footer";
@@ -380,16 +381,17 @@ function App() {
 
       <ContainerContactInfo>
         <ContactInfo>
-          <PhotoContactInfo />
-          <p style={{ fontSize: "25px" }}>Nome</p>
+          <PhotoContactInfoJu />
 
-          <p style={{ fontSize: "20px" }}>Email</p>
+          <b style={{ fontSize: "25px" }}>Jucelino Gimenez</b>
 
-          <p style={{ fontSize: "20px" }}>Lattes</p>
+          <p style={{ fontSize: "20px" }}>Email: <b>gimenez.jucelino@ifmt.edu.br</b></p>
+
+          <p  style={{ fontSize: "18px" }}>Lattes: <a href="http://lattes.cnpq.br/2175607847477391">http://lattes.cnpq.br/2175607847477391</a></p>
         </ContactInfo>
 
         <ContactInfo>
-          <PhotoContactInfo />
+          <PhotoContactInfoOl />
           <p style={{ fontSize: "25px" }}>Nome</p>
 
           <p style={{ fontSize: "20px" }}>Email</p>

@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import './ModalPDF.css'
 
 import pdf02 from './Pdf/2.0.pdf'
-import capa2 from './Capas/Capa 02.png'
+import capa2 from './Capas/Capa 02 2.png'
 
 
 function MPdf02() {
