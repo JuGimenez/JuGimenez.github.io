@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import './ModalPDF.css'
 
 import pdf04 from './Pdf/4.0.pdf'
-import capa4 from './Capas/Capa04.png'
+import capa4 from './Capas/Capa 04.png'
 
 
 function MPdf04() {
@@ -13,7 +13,7 @@ function MPdf04() {
   return (
     <>
       <Button variant="primary" onClick={() => setShow(true)}>
-      <img alt="Capa 4" src={capa4} height={350} width="auto" />
+      <img alt="Capa 4" src={capa4} max-height="20%" height={300} max-width="80%" />
       </Button>
 
       <Modal className='modal-foda'

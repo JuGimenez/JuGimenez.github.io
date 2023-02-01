@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import './ModalPDF.css'
 
 import pdf02 from './Pdf/2.0.pdf'
-import capa2 from './Capas/Capa02.png'
+import capa2 from './Capas/Capa 02.png'
 
 
 function MPdf02() {
@@ -13,7 +13,7 @@ function MPdf02() {
   return (
     <>
       <Button variant="primary" onClick={() => setShow(true)}>
-      <img alt="Capa 2" src={capa2} height={350} width="auto" />
+      <img alt="Capa 2" src={capa2} max-height="20%" height={300} max-width="80%" />
       </Button>
 
       <Modal className='modal-foda'

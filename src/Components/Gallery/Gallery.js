@@ -58,36 +58,36 @@ function Gallery() {
     return (
         <div>
             <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}>
-                <a href={img18} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img18} data-sub-html=" ">
                     <img alt="18BicicletaSaida" src={img18} height={350} width="auto" class="fgallery-item" />
                 </a>
-                <a href={img31desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img31desc} data-sub-html=" ">
                     <img alt="31PaisagemDesc" src={img31desc} height={350} width="auto" class="fgallery-item" />
                 </a>
-                <a href={img17desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img17desc} data-sub-html=" ">
                     <img alt="17BicicletaCampoDesc" src={img17desc} height={350} width="auto" class="fgallery-item" />
                 </a>
 
 
-                <a href={img20desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img20desc} data-sub-html=" ">
                     <img alt="20ExplicandoDesc" src={img20desc} height={364} width="auto" class="fgallery-item" />
                 </a>
-                <a href={img33desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img33desc} data-sub-html=" ">
                     <img alt="33ExplicandoDesc" src={img33desc} height={364} width="auto" class="fgallery-item" />
                 </a>
-                <a href={img26desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img26desc} data-sub-html=" ">
                     <img alt="26ArvoreDesc" src={img26desc} height={364} width="auto" class="fgallery-item" />
                 </a>
 
 
-                <a href={img22desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img22desc} data-sub-html=" ">
                     <img alt="22ExplicandoDesc" src={img22desc} height={280} width="auto" class="fgallery-item" />
                 </a>
-                <a href={img1desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img1desc} data-sub-html=" ">
                     <img alt="1ArvoreCerradoDesc Arvore Lixeira" src={img1desc} height={280} width="auto" class="fgallery-item" />
                 </a>
                 
-                <a href={img29desc} data-sub-html="<h4>Photo by Fotógrafo</h4>">
+                <a href={img29desc} data-sub-html=" ">
                     <img alt="29PedrasDesc" src={img29desc} height={280} width="auto" class="fgallery-item" />
                 </a>
             </LightGallery>

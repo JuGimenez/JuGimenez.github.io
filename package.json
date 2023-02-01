@@ -1,6 +1,6 @@
 {
-  "name": "trilha-ecologica",
-  "homepage": "https://jugimenez.github.io/trilha-ecologica",
+  "name": "cerrado-trilha-ecologica",
+  "homepage": "https://jugimenez.github.io/cerrado-trilha-ecologica",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

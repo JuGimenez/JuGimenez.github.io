@@ -76,13 +76,13 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navi">
-              <a href="#" className="navis">Início</a>
-              <a href="#presentation" className="navis">Apresentação</a>
-              <a href="#aboutResearch" className="navis">Sobre a Pesquisa</a>
-              <a href="#didactSequence" className="navis">Plano de Sequência Didática Interdisciplinar</a>
-              <a href="#steps" className="navis">Etapas</a>
-              <a href="#gallery" className="navis">Galeria</a>
-              <a href="#contact" className="navis">Contato</a>
+              <a href="#" className="navis">Início <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#presentation" className="navis"><b style={{fontSize:"20px"}}>-</b> Apresentação <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#aboutResearch" className="navis"><b style={{fontSize:"20px"}}>-</b> Sobre a Pesquisa <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#didactSequence" className="navis"><b style={{fontSize:"20px"}}>-</b> Plano de Sequência Didática Interdisciplinar <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#steps" className="navis"><b style={{fontSize:"20px"}}>-</b> Etapas <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#gallery" className="navis"><b style={{fontSize:"20px"}}>-</b> Galeria <b style={{fontSize:"20px"}}>-</b></a>
+              <a href="#contact" className="navis"><b style={{fontSize:"20px"}}>-</b> Contato</a>
             </Nav>
           </Navbar.Collapse>
         </Container>

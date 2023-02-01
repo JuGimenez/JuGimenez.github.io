@@ -363,3 +363,10 @@
     border-radius: 50%;
     background-color: rgb(252, 2, 194);
 }
+
+.footer-foda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+}
