@@ -328,7 +328,9 @@
     width: 65%;
     height: 50%;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-image: url(./ContactInfo/Fotos/Cristiano.png);
+    background-repeat: no-repeat;
+    background-size: 250px 340px;
 }
 
 .footer-foda {

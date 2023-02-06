@@ -392,11 +392,11 @@ function App() {
 
         <ContactInfo>
           <PhotoContactInfoOl />
-          <p style={{ fontSize: "25px" }}>Nome</p>
+          <b style={{ fontSize: "25px" }}>Cristiano Rocha da Cunha</b>
 
-          <p style={{ fontSize: "20px" }}>Email</p>
+          <p style={{ fontSize: "20px" }}>Email: <b>cristiano.cunha@ifmt.edu.br</b></p>
 
-          <p style={{ fontSize: "20px" }}>Lattes</p>
+          <p style={{ fontSize: "18px" }}>Lattes: <a href="http://lattes.cnpq.br/9385285640138196">http://lattes.cnpq.br/9385285640138196</a></p>
         </ContactInfo>
       </ContainerContactInfo>
 
