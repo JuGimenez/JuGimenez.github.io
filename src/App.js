@@ -385,19 +385,14 @@ function App() {
 
           <b style={{ fontSize: "25px" }}>Jucelino Gimenez</b>
 
-          <p style={{ fontSize: "20px" }}>Email: <b>gimenez.jucelino@ifmt.edu.br</b></p>
-
-          <p  style={{ fontSize: "18px" }}>Lattes: <a href="http://lattes.cnpq.br/2175607847477391">http://lattes.cnpq.br/2175607847477391</a></p>
-        </ContactInfo>
+          </ContactInfo>
 
         <ContactInfo>
           <PhotoContactInfoOl />
+          
           <b style={{ fontSize: "25px" }}>Cristiano Rocha da Cunha</b>
 
-          <p style={{ fontSize: "20px" }}>Email: <b>cristiano.cunha@ifmt.edu.br</b></p>
-
-          <p style={{ fontSize: "18px" }}>Lattes: <a href="http://lattes.cnpq.br/9385285640138196">http://lattes.cnpq.br/9385285640138196</a></p>
-        </ContactInfo>
+          </ContactInfo>
       </ContainerContactInfo>
 
       <Footer />

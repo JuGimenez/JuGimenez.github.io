@@ -306,6 +306,7 @@
 .info {
     padding: 10px;
     width: 27%;
+    width: 400px;
     height: 550px;
     border-radius: 15px;
     display: flex;
@@ -316,7 +317,9 @@
 }
 
 .photo-contact-info-ju {
+    min-width: 200px;
     width: 65%;
+    min-height: 200px;
     height: 50%;
     border-radius: 50%;
     background-image: url(./ContactInfo/Fotos/Jucelino.jpeg);
