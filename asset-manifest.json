@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cerrado-trilha-ecologica/static/css/main.63db6b46.css",
-    "main.js": "/cerrado-trilha-ecologica/static/js/main.f32a00cf.js",
+    "main.css": "/cerrado-trilha-ecologica/static/css/main.bd085ffd.css",
+    "main.js": "/cerrado-trilha-ecologica/static/js/main.0caba26b.js",
     "static/media/LocalizaçãoA4Teste.png": "/cerrado-trilha-ecologica/static/media/LocalizaçãoA4Teste.87ffb6d6d00f07c2a5c5.png",
     "static/media/AulaCapa1.png": "/cerrado-trilha-ecologica/static/media/AulaCapa1.9dc5279627beb779707a.png",
     "static/media/Capa 01.png": "/cerrado-trilha-ecologica/static/media/Capa 01.f4f2ee5ec1839bcb23e8.png",
@@ -40,11 +40,11 @@
     "static/media/lg.ttf?io9a6k": "/cerrado-trilha-ecologica/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/cerrado-trilha-ecologica/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/cerrado-trilha-ecologica/index.html",
-    "main.63db6b46.css.map": "/cerrado-trilha-ecologica/static/css/main.63db6b46.css.map",
-    "main.f32a00cf.js.map": "/cerrado-trilha-ecologica/static/js/main.f32a00cf.js.map"
+    "main.bd085ffd.css.map": "/cerrado-trilha-ecologica/static/css/main.bd085ffd.css.map",
+    "main.0caba26b.js.map": "/cerrado-trilha-ecologica/static/js/main.0caba26b.js.map"
   },
   "entrypoints": [
-    "static/css/main.63db6b46.css",
-    "static/js/main.f32a00cf.js"
+    "static/css/main.bd085ffd.css",
+    "static/js/main.0caba26b.js"
   ]
 }
