@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/cerrado-trilha-ecologica/static/css/main.bd085ffd.css",
-    "main.js": "/cerrado-trilha-ecologica/static/js/main.0caba26b.js",
+    "main.js": "/cerrado-trilha-ecologica/static/js/main.7b679bb1.js",
     "static/media/LocalizaçãoA4Teste.png": "/cerrado-trilha-ecologica/static/media/LocalizaçãoA4Teste.87ffb6d6d00f07c2a5c5.png",
-    "static/media/AulaCapa1.png": "/cerrado-trilha-ecologica/static/media/AulaCapa1.9dc5279627beb779707a.png",
     "static/media/Capa 01.png": "/cerrado-trilha-ecologica/static/media/Capa 01.f4f2ee5ec1839bcb23e8.png",
     "static/media/AulaCapa3.png": "/cerrado-trilha-ecologica/static/media/AulaCapa3.776c9a486e094c35e6db.png",
     "static/media/26ArvoreDesc.png": "/cerrado-trilha-ecologica/static/media/26ArvoreDesc.63da8453906434974e77.png",
@@ -16,6 +15,7 @@
     "static/media/31PaisagemDesc.png": "/cerrado-trilha-ecologica/static/media/31PaisagemDesc.356b5e97115904e8055c.png",
     "static/media/Capa 04.png": "/cerrado-trilha-ecologica/static/media/Capa 04.209bbb50fec90aaeb3d8.png",
     "static/media/Capa 03.png": "/cerrado-trilha-ecologica/static/media/Capa 03.a84a4d2c4b106c4edcf0.png",
+    "static/media/AulaCapa1.png": "/cerrado-trilha-ecologica/static/media/AulaCapa1.d782c227acc5bc7162de.png",
     "static/media/29PedrasDesc.png": "/cerrado-trilha-ecologica/static/media/29PedrasDesc.f493028c0e1263464e9d.png",
     "static/media/23CaminhoRua.png": "/cerrado-trilha-ecologica/static/media/23CaminhoRua.b1566d90693699f19675.png",
     "static/media/1ArvoreCerradoDesc.jpg": "/cerrado-trilha-ecologica/static/media/1ArvoreCerradoDesc.3089a950acbaac57f737.jpg",
@@ -41,10 +41,10 @@
     "static/media/lg.woff2?io9a6k": "/cerrado-trilha-ecologica/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/cerrado-trilha-ecologica/index.html",
     "main.bd085ffd.css.map": "/cerrado-trilha-ecologica/static/css/main.bd085ffd.css.map",
-    "main.0caba26b.js.map": "/cerrado-trilha-ecologica/static/js/main.0caba26b.js.map"
+    "main.7b679bb1.js.map": "/cerrado-trilha-ecologica/static/js/main.7b679bb1.js.map"
   },
   "entrypoints": [
     "static/css/main.bd085ffd.css",
-    "static/js/main.0caba26b.js"
+    "static/js/main.7b679bb1.js"
   ]
 }
