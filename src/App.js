@@ -387,7 +387,7 @@ function App() {
 
           <p style={{ fontSize: "20px" }}><b>gimenez.jucelino@ifmt.edu.br</b></p>
 
-          <p style={{ fontSize: "18px" }}><a href="http://lattes.cnpq.br/2175607847477391">http://lattes.cnpq.br/2175607847477391</a></p>
+          <p style={{ fontSize: "18px" }}><a href="http://lattes.cnpq.br/2175607847477391" target={"_blank"} rel={"noreferrer noopener"}>http://lattes.cnpq.br/2175607847477391</a></p>
 
           </ContactInfo>
 
@@ -398,7 +398,7 @@ function App() {
 
           <p style={{ fontSize: "20px" }}><b>cristiano.cunha@ifmt.edu.br</b></p>
 
-          <p style={{ fontSize: "18px" }}><a href="http://lattes.cnpq.br/9385285640138196">http://lattes.cnpq.br/9385285640138196</a></p>
+          <p style={{ fontSize: "18px" }}><a href="http://lattes.cnpq.br/9385285640138196" target={"_blank"} rel={"noreferrer noopener"}>http://lattes.cnpq.br/9385285640138196</a></p>
 
           </ContactInfo>
       </ContainerContactInfo>
