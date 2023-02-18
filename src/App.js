@@ -222,7 +222,7 @@ function App() {
 
 
       <Breaker>
-        <h1><a style={{color:"black"}} href='https://drive.google.com/file/d/1k3F5Rd7H-89lpjoLekSn0Gwh18pgyqXv/view?usp=sharing'>Plano de Sequência Didática Interdisciplinar</a></h1>
+        <h1><a style={{color:"black"}} href='https://drive.google.com/file/d/1k3F5Rd7H-89lpjoLekSn0Gwh18pgyqXv/view?usp=sharing' target={"_blank"} rel={"noreferrer noopener"}>Plano de Sequência Didática Interdisciplinar</a></h1>
       </Breaker>
 
 
@@ -363,7 +363,7 @@ function App() {
         <ContainerInterTexts />
 
         <ContainerTexts>
-          <p>Mais fotos disponíveis em: <a href="#presentation">Fotos</a></p>
+          <p>Mais fotos disponíveis em: <a href="https://drive.google.com/drive/folders/124ksRtg9-b345Gh508xe1Hzy241pmeCm?usp=sharing" target={"_blank"} rel={"noreferrer noopener"}>Fotos</a></p>
         </ContainerTexts>
 
         <div id="contact" className="mini-breaker">
