@@ -50,6 +50,7 @@ import img29desc from './Photos/29PedrasDesc.png'
 import img31desc from './Photos/31PaisagemDesc.png'
 // import img32desc from './Photos/32PaisagemDesc.png'
 import img33desc from './Photos/33ExplicandoDesc.png'
+import mapa from './Photos/LocalizaçãoA4-1.png'
 
 function Gallery() {
     const onInit = () => {
@@ -58,6 +59,9 @@ function Gallery() {
     return (
         <div>
             <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}>
+                <a href={mapa} data-sub-html=" ">
+                    <img alt="Mapa" src={mapa} height={350} width="auto" class="fgallery-item" />
+                </a>
                 <a href={img18} data-sub-html=" ">
                     <img alt="18BicicletaSaida" src={img18} height={350} width="auto" class="fgallery-item" />
                 </a>
@@ -75,16 +79,15 @@ function Gallery() {
                 <a href={img33desc} data-sub-html=" ">
                     <img alt="33ExplicandoDesc" src={img33desc} height={364} width="auto" class="fgallery-item" />
                 </a>
+
                 <a href={img26desc} data-sub-html=" ">
-                    <img alt="26ArvoreDesc" src={img26desc} height={364} width="auto" class="fgallery-item" />
+                    <img alt="26ArvoreDesc" src={img26desc} height={360} width="auto" class="fgallery-item" />
                 </a>
-
-
                 <a href={img22desc} data-sub-html=" ">
-                    <img alt="22ExplicandoDesc" src={img22desc} height={280} width="auto" class="fgallery-item" />
+                    <img alt="22ExplicandoDesc" src={img22desc} height={360} width="auto" class="fgallery-item" />
                 </a>
                 <a href={img1desc} data-sub-html=" ">
-                    <img alt="1ArvoreCerradoDesc Arvore Lixeira" src={img1desc} height={280} width="auto" class="fgallery-item" />
+                    <img alt="1ArvoreCerradoDesc Arvore Lixeira" src={img1desc} height={360} width="auto" class="fgallery-item" />
                 </a>
                 
                 <a href={img29desc} data-sub-html=" ">

@@ -65,7 +65,7 @@
 
 .header {
     position: relative;
-    height: 500px;
+    height: 700px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -79,7 +79,7 @@
     position: absolute;
     background-image: url("./Gallery/Photos/LocalizaçãoA4Teste.png");
     background-position: center;
-    background-size: cover;
+    background-size: cover ;
     z-index: -1;
     inset: 0;
     opacity: 0.5;

@@ -94,23 +94,11 @@ function App() {
       <ContainerHeader>
         <img src={IFMT} alt="IFMT" height={75} width="auto" />
         <ContainerHeaderDescription>
-          <h1
-            style={{
-              fontSize: "40px",
-              fontFamily: "arial,sans-serif",
-              fontWeight: "bolder",
-            }}
-          >
+          <h1 style={{fontSize: "40px", fontFamily: "arial,sans-serif", fontWeight: "bolder",}}>
             {" "}
             PRODUTO EDUCACIONAL:{" "}
           </h1>
-          <h2
-            style={{
-              fontSize: "30px",
-              fontFamily: "arial,sans-serif",
-              fontWeight: "bolder",
-            }}
-          >
+          <h2 style={{fontSize: "30px",fontFamily: "arial,sans-serif",fontWeight: "bolder",}}>
             {" "}
             CERRADO: TRILHA ECOLÓGICA - CONHECER PARA CONSERVAR{" "}
           </h2>
